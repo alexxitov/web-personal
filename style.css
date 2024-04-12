@@ -1,0 +1,174 @@
+html{
+    
+    
+  
+    font-family: "Montserrat", sans-serif;
+  
+  
+  }
+  
+  header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: rgb(8, 55, 184);
+    font-size: 1.6em;
+    display: flex;
+    align-content: flex-start;
+  }
+  
+  header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+  }
+  
+  header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+  }
+  
+  header a:hover{
+    color: rgb(49, 16, 236);
+  }
+  
+
+
+
+  .container-tabla{
+  
+    width: 800px;
+    margin: 0 auto;
+   
+    
+
+}
+
+ 
+
+
+.text-box{
+color: #fff;
+
+justify-content: flex-start;
+margin: 150px auto;
+    width: 70%;
+}
+
+  img{
+    max-width: 320px;
+float: left;
+  }
+
+  .containerh{
+
+    max-width: 1400px;
+    margin: auto;
+    
+  }
+  
+  
+  
+ 
+  .porcentaje, .porcentaje2 {
+  float:  right;
+  
+  }
+  
+  
+  
+  .informacion{
+  
+  
+    display: flex;
+    justify-content: center;
+    background-color: #2a2a2a;
+    
+    
+    
+
+  
+  }
+  
+  .imagen{
+  display: flex;
+  justify-content: flex-start;
+  }
+  
+  table{
+  border-collapse:  collapse;
+  }
+  
+  td{
+  border: solid 1px gray;
+  padding: 5px;
+  }
+  
+  tr:hover{
+  background-color: azure;
+  }
+  
+  
+  footer{
+  position: static;
+  bottom: 0px;
+  width: 100%;
+  background: #2a2a2a;
+  color: white
+  }
+  .main-content{
+  display: flex;
+  }
+  .main-content .box{
+  flex-basis: 50%;
+  padding: 10px 20px;
+  }
+  .box h2{
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  
+  }
+  .box .content{
+  margin: 20px 0 0 0;
+  position: relative;
+  
+  }
+  .box .content:before{
+  position: absolute;
+  content: '';
+  top: -10px;
+  height: 2px;
+  width: 100%;
+  background: #1a1a1a;
+  }
+  
+  
+  
+  .box .content:after{
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 15%;
+  background: orange;
+  top: -10px;
+  }
+  
+  
+  .center .content .text{
+  font-size: 1.0625rem;
+  font-weight: 500;
+  padding-left: 10px;
+  color: orange;
+  
+  }
+  
